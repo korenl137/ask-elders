@@ -18,8 +18,12 @@ What it does differently from a plain search:
 
 It is read-only. Nothing is edited, installed or published.
 
-Status: draft 0.1.0. The behavior is not yet compared against a plain prompt;
-see `skills/ask-elders/evals/scenarios.json` for the planned cases.
+Status: draft 0.1.0. A first comparison (2026-11-07) ran the four cases in
+`skills/ask-elders/evals/scenarios.json` once each against a plain prompt that
+also searched the web, with sub-agents following `SKILL.md` and a blind grader.
+The skill answers were preferred in the three research cases, with no invented
+sources in either arm. One run per case and no native skill loading, so treat
+it as a first check, not proof.
 
 ## Install
 
