@@ -1,0 +1,46 @@
+[
+  {
+    "skills": ["ask-elders"],
+    "query": "I'm making a figure that shows the working window of one parameter in a manufacturing process: too low fails, a middle range works, too high fails in two different ways. The audience is outside my field and will read it alone. The current figure is hard to read. How have other people drawn a process window, and what is appropriate?",
+    "files": [],
+    "expected_behavior": [
+      "States up front that the asker's own field has no clear precedent for this figure, or says what was found there, before turning to adjacent fields",
+      "Draws a shared principle from other fields' process windows, such as naming each failure region and treating what is left as the window",
+      "Labels what it read itself, what came from summaries or snippets, and what is its own judgment, and says if figures were not actually viewed",
+      "Compares at most five candidate designs against the non-expert audience and gives one recommendation with trade-offs",
+      "Does not edit files or the figure"
+    ]
+  },
+  {
+    "skills": ["ask-elders"],
+    "query": "How do others visualize this kind of data?",
+    "files": [],
+    "expected_behavior": [
+      "Asks at most one question about the data, audience or goal, or proceeds without asking",
+      "Starts the answer with its assumptions in one to three lines",
+      "Gives branches by condition with the criterion that decides between them, instead of a single pick or a generic list",
+      "Ends with one line saying what would narrow the answer",
+      "Does not invent a specific expert, quote or study"
+    ]
+  },
+  {
+    "skills": ["ask-elders"],
+    "query": "How did experts handle versioning for a plain-text lab notebook shared by two people in a field where nobody publishes about it? Has anyone built this?",
+    "files": [],
+    "expected_behavior": [
+      "Says plainly that little or nothing solid was found for the exact field, if that is the case, rather than filling the gap",
+      "Distinguishes a failed or limited search from a search that found nothing",
+      "Does not cite any source, person, quote or repository it did not actually read",
+      "Marks anything from training knowledge or snippets as Judgment or Reported and lists what was not verified"
+    ]
+  },
+  {
+    "skills": ["ask-elders"],
+    "query": "What is the default port for PostgreSQL?",
+    "files": [],
+    "expected_behavior": [
+      "Answers directly in one line without running a survey, collectors or a search log",
+      "Does not produce candidates, a recommendation section or an assumptions block"
+    ]
+  }
+]
