@@ -15,7 +15,7 @@ description: >
   "이미 만든 사람 있어?". Not for single-fact lookups or for deciding whether
   to adopt a specific tool.
 metadata:
-  version: "0.1"
+  version: "0.1.0"
 ---
 
 # Ask Elders

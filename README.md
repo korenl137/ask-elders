@@ -18,7 +18,7 @@ What it does differently from a plain search:
 
 It is read-only. Nothing is edited, installed or published.
 
-Status: draft 0.1. The behavior is not yet compared against a plain prompt;
+Status: draft 0.1.0. The behavior is not yet compared against a plain prompt;
 see `skills/ask-elders/evals/scenarios.json` for the planned cases.
 
 ## Install
