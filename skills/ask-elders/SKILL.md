@@ -47,8 +47,9 @@ session already holds rich context or almost none.
    and the repository. If a missing item would change the answer, ask at most
    one question; if it goes unanswered, continue. Put the assumptions you made
    in the first lines of the answer so the user can correct them in one line.
-2. **Size the work.** A question one search settles gets a direct answer and
-   this process is skipped. Otherwise use one collector for one axis and at
+2. **Size the work.** A question one search settles gets only the answer, in
+   a line, with no mention of this process, and the rest of this skill is
+   skipped. Otherwise use one collector for one axis and at
    most three for a broad question. Set the stop condition before searching,
    for example the question to settle and a cap on searches, and stop when
    the sources start repeating. Do not add collectors to a simple question.
@@ -85,7 +86,9 @@ search ran and found nothing".
 
 ## Output
 
-1. **Assumptions** (one to three lines).
+1. **Assumptions** (one to three lines), followed in the same opening by
+   whether the user's own field has direct precedent (write "none found"
+   only for a field you actually searched).
 2. **Shared principle** from the survey, in one line, when there is one.
 3. **Candidates**: at most five rows (approach, who did it, why, limits,
    label).
@@ -95,6 +98,9 @@ search ran and found nothing".
 5. **Search log and limits**: sources searched, search date, terms, inclusion
    rule, and a Not verified / Not found list.
 6. **One closing line**: say what would narrow the answer, and stop.
+
+Write for the user, not about the skill: do not mention this skill, its
+design notes or the user's other files unless the user brought them up.
 
 Keep it short enough to read in one pass. Offer further depth instead of
 dumping it.
