@@ -23,7 +23,10 @@ Status: draft 0.1.0. A first comparison (2026-11-07) ran the four cases in
 also searched the web, with sub-agents following `SKILL.md` and a blind grader.
 The skill answers were preferred in the three research cases, with no invented
 sources in either arm. One run per case and no native skill loading, so treat
-it as a first check, not proof.
+it as a first check, not proof. A trigger check in a scratch project (5 asking
+and 5 non-asking questions, 3 runs each, first response only) fired the skill on
+13 of 15 asking runs and on none of the 15 non-asking runs, where neighboring
+skills took over.
 
 ## Install
 
