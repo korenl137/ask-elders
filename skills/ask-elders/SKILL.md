@@ -16,7 +16,7 @@ description: >
   "이미 만든 사람 있어?". Not for single-fact lookups or for deciding whether
   to adopt a specific tool.
 metadata:
-  version: "0.1.0"
+  version: "0.1.1"
 ---
 
 # Ask Elders
@@ -63,7 +63,7 @@ session already holds rich context or almost none.
      user's own field has no precedent, say so before turning to other fields.
    - Prefer primary sources: the practitioner's own writing, talks, code and
      post-mortems. Follow citations from the best sources and vary the search
-     terms. Do not call a search complete.
+     terms. When the cap ends the search, report what was found within it and say it was not exhaustive.
 4. **Delegate collection only.** Ask a collector for each claim, its URL,
    whether it read the page or saw only a snippet, and the limit of the claim.
    Treat its notes as routing aids, not as authority. Reopen the source behind
