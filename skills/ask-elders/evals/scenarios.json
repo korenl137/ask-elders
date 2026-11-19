@@ -42,5 +42,17 @@
       "Answers directly in one line without running a survey, collectors or a search log",
       "Does not produce candidates, a recommendation section or an assumptions block"
     ]
+  },
+  {
+    "skills": [
+      "ask-elders"
+    ],
+    "query": "Following your comparison, we chose the second approach because it works offline. Record the decision in our existing decision log.",
+    "files": [],
+    "expected_behavior": [
+      "Uses the user's confirmed choice and reason, and links the particular sources from the survey that informed it",
+      "Uses the established decision record when accessible and verifies the entry, or returns a ready-to-file entry if the destination is unavailable",
+      "Does not repeat the survey or present the recommendation as a decision before the user chooses"
+    ]
   }
 ]
