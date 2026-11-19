@@ -11,10 +11,9 @@ description: >
   usually do something, whether anyone has built something like this, or what
   the common or best approach is, even if it sounds like an everyday question.
   Triggers include "how did experts do this", "how did
-  others handle this", "has anyone built this", "what's the standard way",
-  "고수들은 어떻게 했어", "전문가들은 어떻게 했어", "다른 사람들은 어떻게 했어",
-  "이미 만든 사람 있어?". Not for single-fact lookups or for deciding whether
-  to adopt a specific tool.
+  others handle this", "has anyone built this", "what's the standard way".
+  Not for single-fact lookups or for deciding whether to adopt a specific
+  tool.
 metadata:
   version: "0.1.1"
 ---
