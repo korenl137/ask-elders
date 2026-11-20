@@ -15,7 +15,7 @@ description: >
   Not for single-fact lookups or for deciding whether to adopt a specific
   tool.
 metadata:
-  version: "0.2.0"
+  version: "0.2.1"
 ---
 
 # Ask Elders
