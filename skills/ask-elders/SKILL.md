@@ -15,7 +15,7 @@ description: >
   Not for single-fact lookups or for deciding whether to adopt a specific
   tool.
 metadata:
-  version: "0.1.1"
+  version: "0.2.0"
 ---
 
 # Ask Elders
@@ -26,6 +26,7 @@ metadata:
 - Flow
 - Evidence labels
 - Output
+- Recording a decision
 - Boundaries
 
 Find out how people who have done this before did it, and turn that into
@@ -105,8 +106,18 @@ design notes or the user's other files unless the user brought them up.
 Keep it short enough to read in one pass. Offer further depth instead of
 dumping it.
 
+## Recording a decision
+
+When the user confirms a choice after a survey, draft a short entry with the
+chosen approach, the reason the user gave, and links to the specific sources
+that informed it. Say which part of each source mattered. If the reason is
+unclear, ask instead of attributing the recommendation to the user.
+If asked to save it, use the established decision record for that project,
+preserve earlier entries and verify the saved text. If the destination is
+unknown or inaccessible, return the entry in the reply.
+
 ## Boundaries
 
-Read-only. Do not edit files, install anything or publish, and do not change
+The survey is read-only. Do not edit files, install anything or publish, and do not change
 the user's work from this survey unless asked. A survey is evidence for a
 decision the user makes.

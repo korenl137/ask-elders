@@ -16,7 +16,7 @@ What it does differently from a plain search:
   sources, people or quotes.
 - Skips the process for questions one search can settle.
 
-It is read-only. Nothing is edited, installed or published.
+The survey is read-only. After you choose an approach, the skill can draft a decision entry with your rationale and the sources that informed it. Ask it to save the entry to your existing decision log.
 
 Status: draft 0.1.0. A first comparison (2026-11-07) ran the four cases in
 `skills/ask-elders/evals/scenarios.json` once each against a plain prompt that
